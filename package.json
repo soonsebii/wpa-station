@@ -1,0 +1,29 @@
+{
+  "name": "wpa-station",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soonsebii/wpa-station.git"
+  },
+  "keywords": [
+    "wpa",
+    "wpa-supplicant",
+    "wifi",
+    "station"
+  ],
+  "author": "soonsebii",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/soonsebii/wpa-station/issues"
+  },
+  "homepage": "https://github.com/soonsebii/wpa-station#readme",
+  "dependencies": {
+    "quick-lru": "^1.1.0",
+    "wpa-client-socket": "git+https://github.com/soonsebii/wpa-client-socket.git"
+  }
+}
